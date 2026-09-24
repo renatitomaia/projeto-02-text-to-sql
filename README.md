@@ -136,7 +136,7 @@ Renato Maia
 
 Portfólio em Análise de Dados, Engenharia e Inteligência Artificial.
 
-LinkedIn: [text](https://www.linkedin.com/in/renato-maia-4b6733b2/)
+[LinkedIn](https://www.linkedin.com/in/renato-maia-4b6733b2/)
 
-GitHub: [text](https://github.com/renatitomaia)
+[GitHub](https://github.com/renatitomaia)
 
