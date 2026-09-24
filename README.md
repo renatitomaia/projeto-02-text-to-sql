@@ -55,7 +55,7 @@ fato_planejamento: Cronograma e avanço físico/financeiro previsto.
 fato_execucao: Apontamentos de custos realizados e avanço físico real.
 
 ## 📁 Estrutura do Repositório
-
+```
 projeto-02-text-to-sql/
 ├── database/
 │   ├── db_obra.db        # Banco de dados SQLite local
@@ -69,6 +69,7 @@ projeto-02-text-to-sql/
 ├── app.py                # Aplicação principal em Streamlit
 ├── requirements.txt      # Dependências do projeto Python
 └── README.md             # Documentação do repositório
+```
 
 ## 🚀 Como Executar o Projeto
 Pré-requisitos
@@ -79,30 +80,41 @@ Chave de API do Google Gemini (obtida gratuitamente no Google AI Studio).
 Passo a Passo
 
 1. Clonar o repositório:
+```bash
 git clone [https://github.com/renatitomaia/projeto-02-text-to-sql.git](https://github.com/renatitomaia/projeto-02-text-to-sql.git)
 cd projeto-02-text-to-sql
+```
 
 2. Criar e ativar o ambiente virtual:
+```bash
 # Windows
 python -m venv venv
 .\venv\Scripts\activate
-
+```
+```bash
 # Linux/Mac
 python3 -m venv venv
 source venv/bin/activate
+```
 
 3. Instalar as dependências:
+```bash
 pip install -r requirements.txt
+```
 
 4. Configurar as Variáveis de Ambiente:
 Crie um arquivo chamado .env na raiz do projeto e adicione sua chave de API:
 GEMINI_API_KEY=sua_chave_api_aqui
 
 5. Gerar e popular o Banco de Dados local:
+```bash
 python database/seed_database.py
+```
 
 6. Iniciar a aplicação Streamlit:
+```bash
 streamlit run app.py
+```
 
 O navegador abrirá automaticamente no endereço http://localhost:8501.
 
