@@ -104,9 +104,11 @@ pip install -r requirements.txt
 
 4. Configurar as Variáveis de Ambiente:
 Crie um arquivo chamado .env na raiz do projeto e adicione sua chave de API:
+```bash
 GEMINI_API_KEY=sua_chave_api_aqui
+```
 
-5. Gerar e popular o Banco de Dados local:
+6. Gerar e popular o Banco de Dados local:
 ```bash
 python database/seed_database.py
 ```
